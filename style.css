@@ -1,0 +1,19 @@
+  html {
+margin: 14;
+font-family: sans-serif,helvetica;
+font-size: 12px;
+background: #ffffff;
+}
+  body
+{
+  background: #ffffff;
+}
+  :target {
+   background: yellow !important;
+}
+ .brd { border: 1px solid #000060; padding: 5px; width: 700px; margin:auto; background-color:#F7DF9F;}
+ .eventlist { border: 1px solid #000060; padding: 0px; width: 710px; margin:auto; background-color:#F7DF9F;}
+
+.odd {background-color:#F7DF9F;}
+.even {background-color:#FFF0E0;}
+
