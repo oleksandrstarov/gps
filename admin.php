@@ -50,6 +50,7 @@ sleep(2);
     print "<div class='brd'>";
     
     print "<br>
+<span>Enter admin password:</span><br>
 <form action='' method='post'>
 <input type='hidden' name='act' value='menu' />
 <input name='go' type='password' />
