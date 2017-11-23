@@ -159,7 +159,7 @@ if ($in['act'] == 'uploadmap') {
     
     // Check file size
     if ($_FILES["fileToUpload"]["size"] > 1500000) {
-        echo "Sorry, your file is too large.";
+        echo "Sorry, your file is too large. Limit is 1464 kB";
         $uploadOk = 0;
     }
     // Allow certain file formats
